@@ -1,0 +1,74 @@
+.navbar{
+    position: static;
+    width: 100%;
+    background-color: black !important;
+}
+
+.nav-link{
+    color: rgb(166, 100, 253) !important;
+    font-family: monospace !important;
+    font-size: 16px !important;
+}
+
+.nav-link:hover{
+    color: rgb(181, 169, 255) !important;
+}
+
+.frame{
+    width: 733px;
+    height: inherit;
+    border: 2px solid rgb(1, 0, 7);
+    background-color: rgb(255, 255, 255);
+    margin: inherit;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 820px){
+    .frame{
+        width: inherit;
+        height: inherit;
+        border: 2px solid rgb(1, 0, 7);
+        background-color: rgb(255, 255, 255);
+        margin: inherit;
+        padding: 10px;
+    }
+}
+
+.frametwo{
+    width: 733px;
+    height: inherit;
+    border: 0px solid rgb(1, 0, 7);
+    background-color: rgb(255, 255, 255);
+    margin: inherit;
+    padding: 10px;
+    
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: rgb(1, 0, 7);
+    font-family: monospace;
+    font-size: 14px;
+}
+
+footer{
+    background-color: rgb(166, 100, 253);
+    color: rgb(1, 0, 7);
+    height: 25px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+}
