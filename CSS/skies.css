@@ -1,10 +1,11 @@
 .gallery{
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .gallery img{
     transition: 1s;
     padding: 20px;
+    width: 350px;
 }
 
 .gallery img:hover{
