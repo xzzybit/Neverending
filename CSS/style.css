@@ -1,0 +1,27 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gallery{
+    text-align: center;
+}
+
+.gallery img{
+    transition: 1s;
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
