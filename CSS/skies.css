@@ -1,11 +1,12 @@
 .gallery{
-    margin-left: 10px;
+    text-align: center;
 }
 
 .gallery img{
     transition: 1s;
     padding: 20px;
     width: 350px;
+    display: inline-block;
 }
 
 .gallery img:hover{
